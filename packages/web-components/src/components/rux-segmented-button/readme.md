@@ -56,9 +56,9 @@ document.addEventListener('change', (e) =>
 
 ## Events
 
-| Event       | Description                                  | Type               |
-| ----------- | -------------------------------------------- | ------------------ |
-| `ruxchange` | Emitted when the value property has changed. | `CustomEvent<any>` |
+| Event       | Description                                                                         | Type               |
+| ----------- | ----------------------------------------------------------------------------------- | ------------------ |
+| `ruxchange` | Fires when the value property has changed and emits that value on the event.detail. | `CustomEvent<any>` |
 
 
 ## Shadow Parts

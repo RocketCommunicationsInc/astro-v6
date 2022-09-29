@@ -20530,7 +20530,7 @@ declare namespace LocalJSX {
          */
         "modalTitle"?: string;
         /**
-          * Event that is fired when dialog closes. If dialog is closed by clicking on the default confirm or deny buttons (when no footer slot is provided), then true or false will be emitted respectively.
+          * Event that is fired when dialog closes. If dialog is closed by clicking on the default confirm or deny buttons (when no footer slot is provided), then true or false will be emitted respectively on the event.detail.
          */
         "onRuxdialogclosed"?: (event: CustomEvent<boolean | null>) => void;
         /**
@@ -32323,7 +32323,7 @@ declare namespace LocalJSX {
          */
         "href"?: string | undefined;
         /**
-          * Emitted when item is clicked. Ex `{value : 10}`
+          * Fires when an item is clicked and emits the value on the event.detail. Ex `{value : 10}`
          */
         "onRuxmenuitemselected"?: (event: CustomEvent<object>) => void;
         /**
@@ -32359,7 +32359,7 @@ declare namespace LocalJSX {
          */
         "modalTitle"?: string;
         /**
-          * Event that is fired when modal closes. If modal is closed by clicking on the default confirm or deny buttons (when no footer slot is provided), then true or false will be emitted respectively.
+          * Event that is fired when modal closes. If modal is closed by clicking on the default confirm or deny buttons (when no footer slot is provided), then true or false will be emitted respectively on the event.detail.
          */
         "onRuxmodalclosed"?: (event: CustomEvent<boolean | null>) => void;
         /**
@@ -32545,7 +32545,7 @@ declare namespace LocalJSX {
          */
         "onRuxblur"?: (event: CustomEvent<any>) => void;
         /**
-          * Fired when an alteration to the input's value is committed by the user - [HTMLElement/change_event](https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement/change_event)
+          * Fired when an alteration to the input's value is committed by the user and emits the value on the event.detail - [HTMLElement/change_event](https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement/change_event)
          */
         "onRuxchange"?: (event: CustomEvent<any>) => void;
         /**
@@ -32605,7 +32605,7 @@ declare namespace LocalJSX {
          */
         "name"?: string;
         /**
-          * Fired when the value of the input changes - [HTMLElement/input_event](https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement/input_event)
+          * Fired when the value of the input changes and emits that value on the event.detail. - [HTMLElement/input_event](https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement/input_event)
          */
         "onRuxchange"?: (event: CustomEvent<any>) => void;
         /**
@@ -32633,7 +32633,7 @@ declare namespace LocalJSX {
          */
         "disabled"?: boolean;
         /**
-          * Emitted when the value property has changed.
+          * Fires when the value property has changed and emits that value on the event.detail.
          */
         "onRuxchange"?: (event: CustomEvent<any>) => void;
         /**
@@ -32789,7 +32789,7 @@ declare namespace LocalJSX {
          */
         "onRuxblur"?: (event: CustomEvent<any>) => void;
         /**
-          * Fired when the value of the input changes - [HTMLElement/input_event](https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement/input_event)
+          * Fired when the value of the input changes and emits that value on the event.detail. - [HTMLElement/input_event](https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement/input_event)
          */
         "onRuxchange"?: (event: CustomEvent<any>) => void;
         /**
@@ -32815,7 +32815,7 @@ declare namespace LocalJSX {
     }
     interface RuxTabPanels {
         /**
-          * Emits a list of the Tab Panels that have been passed in
+          * Emits a list of the Tab Panels on the event.detail which have been passed in
          */
         "onRuxregisterpanels"?: (event: CustomEvent<HTMLRuxTabPanelsElement[]>) => void;
     }
@@ -32839,7 +32839,7 @@ declare namespace LocalJSX {
     }
     interface RuxTabs {
         /**
-          * Fires whenever a new tab is selected, and emits the selected tab.
+          * Fires whenever a new tab is selected, and emits the selected tab on the event.detail.
          */
         "onRuxselected"?: (event: CustomEvent<any>) => void;
         /**
@@ -32989,15 +32989,15 @@ declare namespace LocalJSX {
          */
         "expanded"?: boolean;
         /**
-          * Emit when user collapses a tree node
+          * Fire when the user collapses a tree node and emits the node's id on the event.detail.
          */
         "onRuxtreenodecollapsed"?: (event: CustomEvent<string>) => void;
         /**
-          * Emit when user expands a tree node
+          * Fires when the user expands a tree node and emits the node's id on the event.detail.
          */
         "onRuxtreenodeexpanded"?: (event: CustomEvent<string>) => void;
         /**
-          * Emit when user selects a tree node
+          * Fires when the user selects a tree node and emits the node's id on the event.detail.
          */
         "onRuxtreenodeselected"?: (event: CustomEvent<string>) => void;
         /**

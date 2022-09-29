@@ -167,7 +167,7 @@ export declare interface RuxDialog extends Components.RuxDialog {
    */
   ruxdialogopened: EventEmitter<CustomEvent<void>>;
   /**
-   * Event that is fired when dialog closes. If dialog is closed by clicking on the default confirm or deny buttons (when no footer slot is provided), then true or false will be emitted respectively. 
+   * Event that is fired when dialog closes. If dialog is closed by clicking on the default confirm or deny buttons (when no footer slot is provided), then true or false will be emitted respectively on the event.detail. 
    */
   ruxdialogclosed: EventEmitter<CustomEvent<boolean | null>>;
 
@@ -21393,7 +21393,7 @@ export class RuxLog {
 
 export declare interface RuxMenuItem extends Components.RuxMenuItem {
   /**
-   * Emitted when item is clicked. Ex `{value : 10}` 
+   * Fires when an item is clicked and emits the value on the event.detail. Ex `{value : 10}` 
    */
   ruxmenuitemselected: EventEmitter<CustomEvent<object>>;
 
@@ -21441,7 +21441,7 @@ export declare interface RuxModal extends Components.RuxModal {
    */
   ruxmodalopened: EventEmitter<CustomEvent<void>>;
   /**
-   * Event that is fired when modal closes. If modal is closed by clicking on the default confirm or deny buttons (when no footer slot is provided), then true or false will be emitted respectively. 
+   * Event that is fired when modal closes. If modal is closed by clicking on the default confirm or deny buttons (when no footer slot is provided), then true or false will be emitted respectively on the event.detail. 
    */
   ruxmodalclosed: EventEmitter<CustomEvent<boolean | null>>;
 
@@ -21635,7 +21635,7 @@ export class RuxProgress {
 
 export declare interface RuxPushButton extends Components.RuxPushButton {
   /**
-   * Fired when an alteration to the input's value is committed by the user - [HTMLElement/change_event](https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement/change_event) 
+   * Fired when an alteration to the input's value is committed by the user and emits the value on the event.detail - [HTMLElement/change_event](https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement/change_event) 
    */
   ruxchange: EventEmitter<CustomEvent<any>>;
   /**
@@ -21693,7 +21693,7 @@ export class RuxRadio {
 
 export declare interface RuxRadioGroup extends Components.RuxRadioGroup {
   /**
-   * Fired when the value of the input changes - [HTMLElement/input_event](https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement/input_event) 
+   * Fired when the value of the input changes and emits that value on the event.detail. - [HTMLElement/input_event](https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement/input_event) 
    */
   ruxchange: EventEmitter<CustomEvent<any>>;
 
@@ -21737,7 +21737,7 @@ export class RuxRuler {
 
 export declare interface RuxSegmentedButton extends Components.RuxSegmentedButton {
   /**
-   * Emitted when the value property has changed. 
+   * Fires when the value property has changed and emits that value on the event.detail. 
    */
   ruxchange: EventEmitter<CustomEvent<any>>;
 
@@ -21850,7 +21850,7 @@ export class RuxStatus {
 
 export declare interface RuxSwitch extends Components.RuxSwitch {
   /**
-   * Fired when the value of the input changes - [HTMLElement/input_event](https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement/input_event) 
+   * Fired when the value of the input changes and emits that value on the event.detail. - [HTMLElement/input_event](https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement/input_event) 
    */
   ruxchange: EventEmitter<CustomEvent<any>>;
   /**
@@ -21922,7 +21922,7 @@ export class RuxTabPanel {
 
 export declare interface RuxTabPanels extends Components.RuxTabPanels {
   /**
-   * Emits a list of the Tab Panels that have been passed in 
+   * Emits a list of the Tab Panels on the event.detail which have been passed in 
    */
   ruxregisterpanels: EventEmitter<CustomEvent<HTMLRuxTabPanelsElement[]>>;
 
@@ -22068,7 +22068,7 @@ export class RuxTableRow {
 
 export declare interface RuxTabs extends Components.RuxTabs {
   /**
-   * Fires whenever a new tab is selected, and emits the selected tab. 
+   * Fires whenever a new tab is selected, and emits the selected tab on the event.detail. 
    */
   ruxselected: EventEmitter<CustomEvent<any>>;
 
@@ -22224,15 +22224,15 @@ export class RuxTree {
 
 export declare interface RuxTreeNode extends Components.RuxTreeNode {
   /**
-   * Emit when user selects a tree node 
+   * Fires when the user selects a tree node and emits the node's id on the event.detail. 
    */
   ruxtreenodeselected: EventEmitter<CustomEvent<string>>;
   /**
-   * Emit when user expands a tree node 
+   * Fires when the user expands a tree node and emits the node's id on the event.detail. 
    */
   ruxtreenodeexpanded: EventEmitter<CustomEvent<string>>;
   /**
-   * Emit when user collapses a tree node 
+   * Fire when the user collapses a tree node and emits the node's id on the event.detail. 
    */
   ruxtreenodecollapsed: EventEmitter<CustomEvent<string>>;
 
