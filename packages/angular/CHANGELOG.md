@@ -1,5 +1,17 @@
 # @astrouxds/angular
 
+## 6.14.0
+
+### Minor Changes
+
+- Updated light theme styles
+
+### Patch Changes
+
+### Input
+
+- Fixed the text color of placeholder text.
+
 ## 6.13.1
 
 ### Patch Changes
