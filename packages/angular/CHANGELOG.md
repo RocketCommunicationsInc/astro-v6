@@ -1,5 +1,18 @@
 # @astrouxds/angular
 
+## 6.14.0
+
+### Minor Changes
+
+- bc55532e: Updated light theme styles
+
+### Patch Changes
+
+- fd4dfed9: Fixes the text color of rux-input's placeholder text.
+- Updated dependencies [fd4dfed9]
+- Updated dependencies [bc55532e]
+  - @astrouxds/astro-web-components@6.14.0
+
 ## 6.13.1
 
 ### Patch Changes
