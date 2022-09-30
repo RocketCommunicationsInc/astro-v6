@@ -21,7 +21,7 @@ To get started quickly with all boilerplate and dependencies included, run:
 
 Otherwise, use:
 
-`npm i @astrouxds/angular`
+`npm i @astrouxds/angular@latest-v6`
 
 ## Integration
 
@@ -31,7 +31,7 @@ Import `CUSTOM_ELEMENTS_SCHEMA` and `AstroComponentsModule`
 // app.module.ts
 import { BrowserModule } from '@angular/platform-browser'
 import { NgModule } from '@angular/core'
-import { AstroComponentsModule } from '@astrouxds/angular'
+import { AstroComponentsModule } from '@astrouxds/angular@latest-v6'
 
 import { AppComponent } from './app.component'
 
@@ -43,7 +43,7 @@ import { AppComponent } from './app.component'
 export class AppModule {}
 ```
 
-> NOTE: When using the `@astrouxds/angular` package, components are lazy loaded only when they appear on the page.
+> NOTE: When using the `@astrouxds/angular@latest-v6` package, components are lazy loaded only when they appear on the page.
 > It is not possible to cherry pick individual components at this time.
 
 Import Astro's CSS custom properties
@@ -159,7 +159,7 @@ export class ExampleComponent {
 
 ## Usage Without Wrapper 
 
-Our `@astrouxds/angular` wrapper library provides a number of quality of life features that enhance our core web component library. However, you may find it more convenient to use the core library directly if:
+Our `@astrouxds/angular@latest-v6` wrapper library provides a number of quality of life features that enhance our core web component library. However, you may find it more convenient to use the core library directly if:
 
 1. You aren't using Angular's Reactive Forms.
 2. You don't need Angular's template checking.
@@ -167,7 +167,7 @@ Our `@astrouxds/angular` wrapper library provides a number of quality of life fe
 
 ### Installation 
 
-1. `npm i @astrouxds/astro-web-components`
+1. `npm i @astrouxds/astro-web-components@latest-v6`
 
 2. Register the custom elements
 

@@ -1,3 +1,4 @@
+> This repo is version 6 of `@astrouxds/astro-web-components`. For version 7, please see [the updated repo](https://github.com/RocketCommunicationsInc/astro/tree/main/packages/web-components).
 # Installation
 
 ## Quick Start
