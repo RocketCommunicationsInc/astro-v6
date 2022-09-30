@@ -87,7 +87,7 @@ The TT&C Monitor app allows operators to monitor status, alerts, health, and fun
 The TT&C Command app allows operators to send and receive streams of data to and from a spacecraft using a set of commands, often referred to as a pass plan.
 
 - [Overview of TT&C Command](/ttc-service-ux-design/ttc-command)
-- [Launch TT&C Command Sample App](https://ttc-command.astrouxds.com/)
+- [Launch TT&C Command Sample App](https://ttc-command.astrouxds-v6.com/)
 - [App Source Code (Git Repository)](https://bitbucket.org/rocketcom/tt-c-command/src/master/)
 
 :::
@@ -102,6 +102,6 @@ The TT&C Command app allows operators to send and receive streams of data to and
 The TT&C Investigate App allows operators to investigate spacecraft alerts and anomalies and analyze subsystem mnemonics, measurements, limits, etc.
 
 - [Overview of TT&C Investigate](/ttc-service-ux-design/ttc-investigate)
-- [Launch TT&C Investigate Sample App](https://ttc-investigate.astrouxds.com/)
+- [Launch TT&C Investigate Sample App](https://ttc-investigate.astrouxds-v6.com/)
 - [App Source Code (Git Repository)](https://bitbucket.org/rocketcom/tt-c-investigate/src/master/)
   :::

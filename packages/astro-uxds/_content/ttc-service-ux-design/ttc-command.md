@@ -11,7 +11,7 @@ title: TT&C Command
 :::note
 The images depicted on this page use the color palette and fonts from Astro 4. All new projects should use Astro 5 colors and fonts to be considered an Astro application. Refer to this section for general user experience guidance only, _not_ visual design guidance.
 :::
-[Launch TT&C Command Sample App](https://ttc-command.astrouxds.com/) | [Design Materials and Source Code](#contentBottom)
+[Launch TT&C Command Sample App](https://ttc-command.astrouxds-v6.com/) | [Design Materials and Source Code](#contentBottom)
 
 The TT&C Command App is designed to be used for sending and receiving communications with a satellite during a contact. It contains status and command data for only a single satellite - one currently in a pass. Operators can open multiple command windows if they are managing several passes simultaneously.
 
@@ -21,7 +21,7 @@ Another aspect of the design aimed at reducing cognitive load is to give operato
 
 ![TT&C Command App](/img/service-specific-ux-design/ttc-command-app.png)
 
-There are four main areas in the Command App: the Global Status Bar, Alerts panel, Pass Plan panel, and System Health panel. The key elements are described below, but you can find much more design and task flow detail in the [TT&C Design Specification and Wireframes](/ttc-service-ux-design/ttc-command#contentBottom) documents. You can also launch the [TT&C Command Sample App](https://ttc-command.astrouxds.com/) to explore the design interactively.
+There are four main areas in the Command App: the Global Status Bar, Alerts panel, Pass Plan panel, and System Health panel. The key elements are described below, but you can find much more design and task flow detail in the [TT&C Design Specification and Wireframes](/ttc-service-ux-design/ttc-command#contentBottom) documents. You can also launch the [TT&C Command Sample App](https://ttc-command.astrouxds-v6.com/) to explore the design interactively.
 ![TT&C Command App Details](/img/service-specific-ux-design/ttc-command-app-details.png)
 
 ## Global Status Bar
@@ -95,7 +95,7 @@ Below is an animated walkthrough of a representative task flow using the TT&C Mo
 
 ## Design Materials and Source Code
 
-Below are design and development resources to get you started on an app that supports TT&C services. Note that there are some discrepancies between the design documents and the [TT&C Command Sample App](https://ttc-command.astrouxds.com/) due to design improvements that were introduced late in the app development cycle.
+Below are design and development resources to get you started on an app that supports TT&C services. Note that there are some discrepancies between the design documents and the [TT&C Command Sample App](https://ttc-command.astrouxds-v6.com/) due to design improvements that were introduced late in the app development cycle.
 
 | Resources                                                                                                                       | Description                                                                                                                                               |
 | ------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------- |

@@ -11,7 +11,7 @@ title: TT&C Monitor
 :::note
 The images depicted on this page use the color palette and fonts from Astro 4. All new projects should use Astro 5 colors and fonts to be considered an Astro application. Refer to this section for general user experience guidance only, _not_ visual design guidance.
 :::
-[Launch TT&C Monitor Sample App](https://ttc-monitor.astrouxds.com/) | [Design Materials and Source Code](/ttc-service-ux-design/ttc-monitor#contentBottom)
+[Launch TT&C Monitor Sample App](https://ttc-monitor.astrouxds-v6.com/) | [Design Materials and Source Code](/ttc-service-ux-design/ttc-monitor#contentBottom)
 
 For operators of a TT&C service, maintaining situational awareness is of critical importance, and the TT&C Monitor App is designed to support this requirement. During the UX research effort, operators expressed a desire for a quick and efficient way to view overall status of their constellation and all of their systems, something lacking in their current systems. To deliver on this, the design team worked with domain experts and the operators to identify the most important data and then display it in a clear, logical manner in the app.
 
@@ -19,7 +19,7 @@ As operators’ primary TT&C App, the Monitor App would constantly occupy one of
 
 ![TT&C Monitor App](/img/service-specific-ux-design/ttc-monitor-app.png)
 
-There are four main areas in the Monitor App: the Global Status Bar, Alerts panel, Constellation panel, and Watcher panel. The key elements are described below, but you can find much more design and task flow detail in the [TT&C Design Specification and Wireframes](/ttc-service-ux-design/ttc-monitor#contentBottom) documents. You can also launch the [TT&C Monitor Sample App](https://ttc-monitor.astrouxds.com/) to explore the design interactively.
+There are four main areas in the Monitor App: the Global Status Bar, Alerts panel, Constellation panel, and Watcher panel. The key elements are described below, but you can find much more design and task flow detail in the [TT&C Design Specification and Wireframes](/ttc-service-ux-design/ttc-monitor#contentBottom) documents. You can also launch the [TT&C Monitor Sample App](https://ttc-monitor.astrouxds-v6.com/) to explore the design interactively.
 
 ![TT&C Monitor App Details](/img/service-specific-ux-design/ttc-monitor-app-details.png)
 
@@ -110,7 +110,7 @@ Below is an animated walkthrough of a representative task flow using the TT&C Mo
 
 ## Design Materials and Source Code
 
-Below are design and development resources to get you started on an app that supports TT&C services. Note that there are some discrepancies between the design documents and the [TT&C Monitor Sample App](https://ttc-monitor.astrouxds.com/) due to design improvements that were introduced late in the app development cycle.
+Below are design and development resources to get you started on an app that supports TT&C services. Note that there are some discrepancies between the design documents and the [TT&C Monitor Sample App](https://ttc-monitor.astrouxds-v6.com/) due to design improvements that were introduced late in the app development cycle.
 
 | Resources                                                                                                                       | Description                                                                                                                                               |
 | ------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------- |
