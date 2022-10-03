@@ -1,6 +1,30 @@
 import { Meta } from '@storybook/addon-docs'
+import { styled } from '@storybook/theming'
+export const StyledDiv = styled.div`
+    position: relative;
+    margin: 1rem 0;
+    border-left: 20px solid var(--color-status-serious);
+    background: white;
+    color: var(--color-status-serious);
+    padding: 19px;
+    font-family: var(--font-body-1-bold-font-family);
+    font-size: var(--font-body-1-bold-font-size);
+    font-weight: var(--font-body-1-bold-font-weight);
+    letter-spacing: var(--font-body-1-bold-letter-spacing);
+    .banner-text {
+        margin-top: 1rem;
+        color: var(--color-text-inverse);
+    }
+`
 
 <Meta title="Astro UXDS/Welcome/Start Here" />
+
+<StyledDiv>
+    <div>Warning: This documentation may be out of date</div>
+    <p class="banner-text">
+        This site is meant for version 6 of astro-web-components. If you are on version 7, please see <a href="https://astro-components.netlify.app/?path=/docs/astro-uxds-welcome-start-here--page">the current documentation.</a>
+    </p>
+</StyledDiv>
 
 # Welcome to the Astro Storybook
 
@@ -30,10 +54,10 @@ Display options and keyboard shortcuts are available via the Ellipsis Menu
 Icon next to the Astro UXDS logo at the top of the sidebar.
 
 If you would like to download and run the Astro UXDS Components Storybook
-yourself, you may clone [the respository]('https://github.com/RocketCommunicationsInc/astro-components-stencil')
+yourself, you may clone [the respository]('https://github.com/RocketCommunicationsInc/astro-v6/packages/web-components')
 
 ```sh
-git clone https://github.com/RocketCommunicationsInc/astro-components.git
+git clone git@github.com:RocketCommunicationsInc/astro-v6.git
 ```
 
 ## Get Started
@@ -75,6 +99,29 @@ git clone https://github.com/RocketCommunicationsInc/astro-components.git
     width: 100px;
     height: 100px;
   }
+  .toast {
+    max-width: 500px;
+    overflow: hidden;
+    font-size: 0.875rem;
+    background: #1b2d3e;
+    background-clip: padding-box;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 0.25rem;
+    box-shadow: 0 0.25rem 0.75rem rgb(0 0 0 / 10%);
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+    position: fixed;
+    color: white;
+    right: 0;
+    -webkit-font-smoothing: antialiased;
+}
+.toast-body {
+    padding: 0.75rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
 `}
 </style>
 
@@ -88,7 +135,7 @@ git clone https://github.com/RocketCommunicationsInc/astro-components.git
             JavaScript
         </a>
         <a
-            href="https://codesandbox.io/s/github/RocketCommunicationsInc/astro/tree/main/packages/starter-kits/html-js-starter"
+            href="https://codesandbox.io/s/github/RocketCommunicationsInc/astro-v6/tree/main/packages/starter-kits/html-js-starter"
             target="_blank"
         >
             <img
@@ -116,7 +163,7 @@ git clone https://github.com/RocketCommunicationsInc/astro-components.git
             Angular
         </a>
         <a
-            href="https://codesandbox.io/s/github/RocketCommunicationsInc/astro/tree/main/packages/starter-kits/angular-starter?file=/src/app/app.component.html"
+            href="https://codesandbox.io/s/github/RocketCommunicationsInc/astro-v6/tree/main/packages/starter-kits/angular-starter?file=/src/app/app.component.html"
             target="_blank"
         >
             <img
@@ -138,7 +185,7 @@ git clone https://github.com/RocketCommunicationsInc/astro-components.git
         </a>
         <a
             target="_blank"
-            href="https://codesandbox.io/s/github/RocketCommunicationsInc/astro/tree/main/packages/starter-kits/react-starter?fontsize=14&hidenavigation=1&theme=dark"
+            href="https://codesandbox.io/s/github/RocketCommunicationsInc/astro-v6/tree/main/packages/starter-kits/react-starter?fontsize=14&hidenavigation=1&theme=dark"
         >
             <img
                 alt="Edit react-starter"
@@ -162,7 +209,7 @@ git clone https://github.com/RocketCommunicationsInc/astro-components.git
         </a>
         <a
             target="_blank"
-            href="https://codesandbox.io/s/github/RocketCommunicationsInc/astro/tree/main/packages/starter-kits/vue-starter"
+            href="https://codesandbox.io/s/github/RocketCommunicationsInc/astro-v6/tree/main/packages/starter-kits/vue-starter"
         >
             <img
                 alt="Edit Astro - Vue"
@@ -186,7 +233,7 @@ git clone https://github.com/RocketCommunicationsInc/astro-components.git
         </a>
         <a
             target="_blank"
-            href="https://codesandbox.io/s/github/RocketCommunicationsInc/astro/tree/main/packages/starter-kits/svelte-starter"
+            href="https://codesandbox.io/s/github/RocketCommunicationsInc/astro-v6/tree/main/packages/starter-kits/svelte-starter"
         >
             <img
                 alt="Edit Astro - Svelte"

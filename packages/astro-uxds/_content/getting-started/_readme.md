@@ -81,4 +81,4 @@ This website and its contents are provided as separate downloadable files for th
 
 [Gzip Archive of astrouxds.com](https://github.com/RocketCommunicationsInc/astro-uxds/archive/draft.zip) | [Github](https://github.com/RocketCommunicationsInc/astro-uxds)
 
-[Gzip Archive of the Astro Storybook site](https://github.com/RocketCommunicationsInc/astro-components/archive/master.zip) | [Github](https://github.com/RocketCommunicationsInc/astro-components)
+[Gzip Archive of the Astro Storybook site](https://github.com/RocketCommunicationsInc/astro-components-v6/archive/master.zip) | [Github](https://github.com/RocketCommunicationsInc/astro-components-v6)

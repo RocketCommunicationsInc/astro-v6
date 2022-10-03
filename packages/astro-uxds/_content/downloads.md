@@ -10,12 +10,12 @@ title: Downloads
 
 ## Astro Design System
 
-- Astro Component Source Code ([Git Repository](https://github.com/RocketCommunicationsInc/astro-components))
+- Astro Component Source Code ([Git Repository](https://github.com/RocketCommunicationsInc/astro-v6))
 - Astro UXDS Figma Page ([Figma](https://www.figma.com/@astrouxds))
-- Astro Icons ([SVG](https://github.com/RocketCommunicationsInc/astro/tree/main/packages/web-components/src/icons) | [Figma](https://www.figma.com/community/file/1022883566772542677))
-- Astro React Wrapper ([Git Repository](https://github.com/RocketCommunicationsInc/astro/tree/main/packages/react))
-- Astro React Starter Kit ([Git Repository](https://github.com/RocketCommunicationsInc/astro/blob/main/packages/starter-kits/react-starter/README.md))
-- Astro Svelte Starter Kit ([Git Repository](https://github.com/RocketCommunicationsInc/astro/blob/main/packages/starter-kits/svelte-starter/README.md))
+- Astro Icons ([SVG](https://github.com/RocketCommunicationsInc/astro-v6/tree/main/packages/web-components/src/icons) | [Figma](https://www.figma.com/community/file/1022883566772542677))
+- Astro React Wrapper ([Git Repository](https://github.com/RocketCommunicationsInc/astro-v6/tree/main/packages/react))
+- Astro React Starter Kit ([Git Repository](https://github.com/RocketCommunicationsInc/astro-v6/blob/main/packages/starter-kits/react-starter/README.md))
+- Astro Svelte Starter Kit ([Git Repository](https://github.com/RocketCommunicationsInc/astro-v6/blob/main/packages/starter-kits/svelte-starter/README.md))
 - Astro Angular Starter Kit \[COMING SOON\]
 - Astro Vue Starter Kit \[COMING SOON\]
 

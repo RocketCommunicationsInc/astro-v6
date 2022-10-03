@@ -20,22 +20,22 @@
 			{% else %}
 
 					{% if meta.branch and meta.branch === 'draft' %}
-						<iframe id="live-sample" class="live-sample" scrolling="{{ scrolling }}" src="https://next--astro-components.netlify.app/iframe.html?id={{ demo }}&viewMode=story" style="width: 100%; height: {{height}}; overflow: hidden;"></iframe>
+						<iframe id="live-sample" class="live-sample" scrolling="{{ scrolling }}" src="https://astro-components-v6.netlify.app/iframe.html?id={{ demo }}&viewMode=story" style="width: 100%; height: {{height}}; overflow: hidden;"></iframe>
 					{% else %}
-						<iframe id="live-sample" class="live-sample" scrolling="{{ scrolling }}" src="https://astro-components.netlify.app/iframe.html?id={{ demo }}&viewMode=story" style="width: 100%; height: {{height}}; overflow: hidden;"></iframe>
+						<iframe id="live-sample" class="live-sample" scrolling="{{ scrolling }}" src="https://astro-components-v6.netlify.app/iframe.html?id={{ demo }}&viewMode=story" style="width: 100%; height: {{height}}; overflow: hidden;"></iframe>
 					{% endif %}
 					
 			{% endif %}
 
 			<div class="demo-container__sample-links">
 				{% if storybook %}
-					<a class="sample-links__storybook" href="https://astro-components.netlify.com/?path=/story/{{storybook}}">
+					<a class="sample-links__storybook" href="https://astro-components-v6.netlify.app/?path=/story/{{storybook}}">
 						Storybook
 					</a>
 				{% endif %}
 
 				{% if git %}
-					<a class="sample-links__github" href="https://github.com/RocketCommunicationsInc/astro/tree/main/packages/web-components/src/components/{{git}}">Github</a>
+					<a class="sample-links__github" href="https://github.com/RocketCommunicationsInc/astro-v6/tree/main/packages/web-components/src/components/{{git}}">Github</a>
 				{% endif %}
 				
 				{% if css %}

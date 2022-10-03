@@ -84,6 +84,29 @@
   h2 {
     color: $text-white;
   }
+  .toast {
+    max-width: 500px;
+    overflow: hidden;
+    font-size: 0.875rem;
+    background: #1b2d3e;
+    background-clip: padding-box;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 0.25rem;
+    box-shadow: 0 0.25rem 0.75rem rgb(0 0 0 / 10%);
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+    position: fixed;
+    color: white;
+    right: 0;
+    font-family: var(--font, "Helvetica Neue", Helvetica, Arial, sans-serif);
+    -webkit-font-smoothing: antialiased;
+  }
+  .toast-body {
+    padding: 0.75rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
 }
 
 /* Wraps everything above video */

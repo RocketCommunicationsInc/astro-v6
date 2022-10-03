@@ -12,7 +12,7 @@ title: Read Me
 
 ## Getting Started with Astro Web Components
 
-[Additional Documentation/Storybook](https://astro-components.netlify.app/?path=/story/astro-uxds-welcome-start-here--page)
+[Additional Documentation/Storybook](https://astro-components-v6.netlify.app/?path=/story/astro-uxds-welcome-start-here--page)
 
 
 ### Why Web Components?
