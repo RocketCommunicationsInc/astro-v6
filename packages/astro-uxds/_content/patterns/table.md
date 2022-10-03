@@ -10,7 +10,7 @@ title: Table
 
 ## Appearance and Behavior
 
-Tables are a fundamental UX design tool for organizing and displaying data. They are used throughout space applications and may take many forms. The principal table interactions and styles are illustrated below and demonstrated in the [GRM](https://grm-dashboard.astrouxds-v6.com/) and [TT&C](https://ttc-monitor.astrouxds-v6.com/) sample applications. Types of content used in table cells varies by use case, but often includes: [text](/design-guidelines/typography/), [checkboxes](/components/checkbox/), [icons](/components/icons-and-symbols/), [status indicators](/components/status-symbol/), or [buttons](/components/button/).
+Tables are a fundamental UX design tool for organizing and displaying data. They are used throughout space applications and may take many forms. The principal table interactions and styles are illustrated below and demonstrated in the [GRM](https://grm-dashboard.astrouxds.com/) and [TT&C](https://ttc-monitor.astrouxds.com/) sample applications. Types of content used in table cells varies by use case, but often includes: [text](/design-guidelines/typography/), [checkboxes](/components/checkbox/), [icons](/components/icons-and-symbols/), [status indicators](/components/status-symbol/), or [buttons](/components/button/).
 
 ## Filtering
 
