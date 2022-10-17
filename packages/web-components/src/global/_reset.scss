@@ -7,6 +7,8 @@ html {
     -webkit-text-size-adjust: 100%;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+    scrollbar-color: var(--color-border-interactive-muted, rgb(43, 101, 155))
+        var(--color-background-surface-default, rgb(27, 45, 62));
 }
 
 *,
