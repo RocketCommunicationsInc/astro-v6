@@ -1,5 +1,17 @@
 # @astrouxds/angular
 
+## 6.14.1
+
+### Patch Changes
+
+- 8bb69d3f: Fixed the scrollbar color not working on Firefox
+- 8bb69d3f: Fixed an issue where tabs were having unexpected behavior if dynamically added.
+- 2a2925d5: remove unnecessary type definitions
+- Updated dependencies [8bb69d3f]
+- Updated dependencies [8bb69d3f]
+- Updated dependencies [2a2925d5]
+  - @astrouxds/astro-web-components@6.14.1
+
 ## 6.14.0
 
 ### Minor Changes
